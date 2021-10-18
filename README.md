@@ -1,6 +1,6 @@
 # Analysis of computer components on Amazon
 
-In this project I will analyze top 10.000 products in the section of Computers > Computer Components > Internal Components on [amazon.com](https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A193870011%2Cn%3A17923671011%2Cp_n_availability%3A2661601011&s=review-rank&dc&qid=1634574488&rnid=2661599011&ref=sr_nr_p_n_availability_2) sorted by average customer review.
+In this project I will analyze the top 10.000 products in the section of Computers > Computer Components > Internal Components on [amazon.com](https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A193870011%2Cn%3A17923671011%2Cp_n_availability%3A2661601011&s=review-rank&dc&qid=1634574488&rnid=2661599011&ref=sr_nr_p_n_availability_2) sorted by average customer review.
 
 Each entry in the database will consist of:
 * Name
