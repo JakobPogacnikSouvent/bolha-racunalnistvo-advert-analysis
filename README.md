@@ -13,7 +13,7 @@ Each entry in the database will consist of:
 # Hypotheses and goals
 
 Some of the hypotheses and goals I will try to find out with my data analysis are:
-* Create an algorythm to classify product (derive type from name)
+* Create an algorithm to classify product (derive type from name)
 * Which types of product are most expensive
 * Corellation between city and product type
 * Correlation between city and product price
