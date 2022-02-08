@@ -77,7 +77,9 @@ with open('data.csv', 'w', encoding="utf8") as csv_file:
             prices = list(map(lambda s : s.replace('.', ''), prices))
 
             for i in range(25):
-                csv_file.write(f'{names[i]};{locations[i]};{datetimes[i]};{prices[i]}\n')
+                # We have to use ;;; as a field delimiter. You should see the ascii people throw in their adds with your own eyes
+                # It would be better to save data into a json file but i tunnel visioned into csv
+                csv_file.write(f'{names[i]};;;{locations[i]};;;{datetimes[i]};;;{prices[i]}\n')
 
     
 

@@ -20,6 +20,8 @@ def save_html_to_file(text, filename, dir_path='data'):
         File.write(soup.prettify())    
 
 if __name__ == "__main__":
+    # We have to cap range at 400 because of an error in bolha's webpage preventing them to show pages higher than page 399
+    # I have submitted the error to the site developers so it might be resolved in the future but its still not fixed 3 months after bug submittion so I highly doubt that
     for i in range(1, 400):
         url = f"https://www.bolha.com/racunalnistvo?typeOfTransaction=Prodam&sort=expensive&page={i}"
         filename = f"bolha-oglasi-racunalnistvo-{i}.html"
