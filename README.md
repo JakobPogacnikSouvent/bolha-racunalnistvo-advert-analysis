@@ -8,7 +8,7 @@ As to not cause issues by ddosing the site all data that my analysis is based on
 
 ## Dependencies
 
-To run the analysis `python` library `pandas` and a way to run jupyter notebooks is required. You can install the dependencies by running
+To run the analysis `python` library `pandas` and a way to run `jupyter` notebooks is required. You can install the dependencies by running
 ```
 pip install pandas
 ```
