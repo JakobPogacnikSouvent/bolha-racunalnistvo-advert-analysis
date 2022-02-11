@@ -2,6 +2,8 @@
 
 In this project I will analyze the top 10.000 products in the section of Computers on the slovenian flea market website [Bolha](https://www.bolha.com/racunalnistvo) sorted by descending price. The analysis is done in jupyter notebook in slovene language.
 
+This is a school project for the [Faculty of Mathemathics and Physics Ljubljana](https://www.fmf.uni-lj.si/sl/ "Faculty of Mathemathics and Physics Ljubljana")
+
 ## Getting started
 
 As to not cause issues by ddosing the site all data that my analysis is based on is saved in the folder `data/` using `download_data.py` and compiled into `data.csv` by `filter.py`. If you wish to run the analysis on fresh data simply run the preceding programs to get fresh data.
